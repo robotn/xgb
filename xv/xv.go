@@ -905,7 +905,7 @@ func ImageFormatInfoListBytes(buf []byte, list []ImageFormatInfo) int {
 // ImageFormatInfoListSize computes the size (bytes) of a list of ImageFormatInfo values.
 func ImageFormatInfoListSize(list []ImageFormatInfo) int {
 	size := 0
-	for _ = range list {
+	for range list {
 		size += 128
 	}
 	return size
@@ -1770,7 +1770,7 @@ func putImageRequest(c *xgb.Conn, Port Port, Drawable xproto.Drawable, Gc xproto
 	xgb.Put16(buf[b:], Height)
 	b += 2
 
-	copy(buf[b:], Data[:len(Data)])
+	copy(buf[b:], Data[:])
 	b += int(len(Data))
 
 	return buf
