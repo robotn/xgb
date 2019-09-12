@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/BurntSushi/xgb"
-	"github.com/BurntSushi/xgb/xinerama"
+	"github.com/robotn/xgb"
+	"github.com/robotn/xgb/xinerama"
 )
 
 func main() {

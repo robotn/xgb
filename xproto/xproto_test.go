@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BurntSushi/xgb"
+	"github.com/robotn/xgb"
 )
 
 // The X connection used throughout testing.

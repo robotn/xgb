@@ -7,8 +7,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/BurntSushi/xgb"
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb"
+	"github.com/robotn/xgb/xproto"
 )
 
 func main() {

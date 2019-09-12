@@ -14,9 +14,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/BurntSushi/xgb"
-	"github.com/BurntSushi/xgb/randr"
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb"
+	"github.com/robotn/xgb/randr"
+	"github.com/robotn/xgb/xproto"
 )
 
 func main() {

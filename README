@@ -12,15 +12,15 @@ easier by using a slightly higher level library: xgbutil.
 
 Quick Usage
 ===========
-go get github.com/BurntSushi/xgb
-go run go/path/src/github.com/BurntSushi/xgb/examples/create-window/main.go
+go get github.com/robotn/xgb
+go run go/path/src/github.com/robotn/xgb/examples/create-window/main.go
 
 BurntSushi's Fork
 =================
 I've forked the XGB repository from Google Code due to inactivty upstream.
 
 Godoc documentation can be found here:
-http://godoc.burntsushi.net/pkg/github.com/BurntSushi/xgb/
+http://godoc.burntsushi.net/pkg/github.com/robotn/xgb/
 
 Much of the code has been rewritten in an effort to support thread safety
 and multiple extensions. Namely, go_client.py has been thrown away in favor
